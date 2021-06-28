@@ -1,4 +1,4 @@
-# Ontologies
+# Polifonia Ontologies
 
-This repository is created with the purpose of creating and publishing  preliminary OWL files for the stories that have been formulated during the Maninpasta. 
+This repository contains links to the Polifonia Ontology Network. Independent ontologies and ontology modules are stored elsewhere in their own repositories, and linked here. 
 
