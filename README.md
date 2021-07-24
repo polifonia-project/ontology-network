@@ -12,7 +12,7 @@ Thematic and top-level ontology modules are stored elsewhere in their own reposi
 The FULL root ontology module is stored in this repository.
 
 ### Musical Composition
-[Musical Composition](https://github.com/musical-composition/)
+[Musical Composition](https://github.com/polifonia-project/musical-composition/)
 
 ### Musical Performance
-[Musical Performance](https://github.com/musical-performance/)
+[Musical Performance](https://github.com/polifonia-project/musical-performance/)
