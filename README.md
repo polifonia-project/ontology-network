@@ -11,6 +11,9 @@ Thematic and top-level ontology modules are stored elsewhere in their own reposi
 ### FULL
 The FULL root ontology module is stored in this repository.
 
+### Core
+[Core](https://github.com/polifonia-project/core/)
+
 ### Musical Composition
 [Musical Composition](https://github.com/polifonia-project/musical-composition/)
 
