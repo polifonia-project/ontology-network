@@ -22,3 +22,6 @@ The FULL root ontology module is stored in this repository.
 
 ### Source
 [Source](https://github.com/polifonia-project/source)
+
+### Instrument
+[Instrument](https://github.com/polifonia-project/instrument)
