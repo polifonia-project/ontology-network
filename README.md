@@ -14,11 +14,15 @@ The FULL root ontology module is stored in this repository.
 ### Core
 [Core](https://github.com/polifonia-project/core/)
 
+### Musical Performance
+[Musical Performance](https://github.com/polifonia-project/musical-performance/)
+
 ### Musical Composition
 [Musical Composition](https://github.com/polifonia-project/musical-composition/)
 
-### Musical Performance
-[Musical Performance](https://github.com/polifonia-project/musical-performance/)
+### Musical Feature
+[Musical Feature](https://github.com/polifonia-project/musical-feature/)
+
 
 ### Source
 [Source](https://github.com/polifonia-project/source)
