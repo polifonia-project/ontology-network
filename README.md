@@ -29,3 +29,6 @@ The FULL root ontology module is stored in this repository.
 
 ### Instrument
 [Instrument](https://github.com/polifonia-project/instrument)
+
+### Comparative Measure
+[Comparative Measure](https://github.com/polifonia-project/comparative-measure)
