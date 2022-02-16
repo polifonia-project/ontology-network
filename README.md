@@ -43,6 +43,10 @@ The FULL root ontology module is stored in this repository.
 ### Bell
 [Bell](https://github.com/polifonia-project/bell)
 
+## Ontology survey
+
+A survey (included as part of D2.1) reporting existing ontologies with relations to the PON is avaialble [here](d21-ontologies.pdf)
+
 
 
 
