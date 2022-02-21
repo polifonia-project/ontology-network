@@ -1,3 +1,33 @@
+---
+id: ontology-network
+name: Polifonia Ontology Network (PON)
+description: Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each of its submodules.
+type: Ontology
+release-date: 21/02/2022
+release-number: v0.1
+work-package: 
+- WP2
+licence:  CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+links:
+- https://github.com/polifonia-project/core/
+- https://github.com/polifonia-project/musical-performance/
+- https://github.com/polifonia-project/musical-composition/
+- https://github.com/polifonia-project/musical-feature/
+- https://github.com/polifonia-project/source
+- https://github.com/polifonia-project/instrument
+- https://github.com/polifonia-project/comparative-measure
+- https://github.com/polifonia-project/music-emotion
+- https://github.com/polifonia-project/metadata
+- https://github.com/polifonia-project/bell 
+credits:
+- https://github.com/albertmeronyo
+- https://github.com/valecarriero
+- https://github.com/FiorelaCiroku
+- https://github.com/jonnybluesman
+- https://github.com/delfimpandiani
+- https://github.com/andreamust
+---
+
 # Polifonia Ontology Network
 
 This repository contains links to the Polifonia Ontology Network.
