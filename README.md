@@ -1,5 +1,5 @@
 ---
-id: ontology-network
+component-id: ontology-network
 name: Polifonia Ontology Network (PON)
 description: Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each of its submodules.
 type: Ontology
