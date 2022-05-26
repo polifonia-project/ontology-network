@@ -73,8 +73,11 @@ The FULL root ontology module is stored in this repository.
 ### Bell
 [Bell](https://github.com/polifonia-project/bell)
 
-## JAMS 
+### JAMS 
 [JAMS](https://github.com/polifonia-project/jams-ontology)
+
+### Roman Chords
+[Roman Chords](https://github.com/polifonia-project/roman-chord-ontology)
 
 ## Ontology and dataset survey
 
