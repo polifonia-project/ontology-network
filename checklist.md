@@ -35,7 +35,3 @@
 [ ] Specify if the ontology is of **specific** pilot reuse, or has more **general** applicability. If the latter applies, please provide some examples or explain how this is possible.
 
 [ ] Specify if there is potential for extensibility to meet future requirements.
-
-[ ] Is there a sustainability plan specified for the ontology in the medium- long-term?
-
-
