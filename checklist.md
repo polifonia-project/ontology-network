@@ -1,10 +1,12 @@
 
 # PON checklist for modules
 
+> Example of how an ontology module in PON should like are the [JAMS ontology](https://github.com/polifonia-project/jams-ontology) and the [BELL ontology](https://github.com/polifonia-project/bell-ontology).
+
 
 ## :red_circle: Must have
 
-[ ] Create the main OWL file in the `ontology/` folder
+[ ] Create the main OWL file in the `ontology/` folder.
 
 [ ] Create a README for the ontology (compliant with our [rulebook](https://github.com/polifonia-project/rulebook)).
 
