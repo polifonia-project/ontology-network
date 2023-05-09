@@ -10,15 +10,19 @@ work-package:
 licence:  CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
 links:
 - https://github.com/polifonia-project/core/
-- https://github.com/polifonia-project/musical-performance/
-- https://github.com/polifonia-project/musical-composition/
-- https://github.com/polifonia-project/musical-feature/
-- https://github.com/polifonia-project/source
-- https://github.com/polifonia-project/instrument
-- https://github.com/polifonia-project/comparative-measure
-- https://github.com/polifonia-project/music-emotion
-- https://github.com/polifonia-project/metadata
-- https://github.com/polifonia-project/bell 
+- https://github.com/polifonia-project/musicmeta-ontology
+- https://github.com/polifonia-project/musicmeta-ontology 
+- https://github.com/polifonia-project/music-representation-ontology
+- https://github.com/polifonia-project/source-ontology
+- https://github.com/polifonia-project/instrument-ontology
+- https://github.com/polifonia-project/tunes-ontology
+- https://github.com/polifonia-project/music-projection-ontology
+- https://github.com/polifonia-project/organs-ontology
+- https://github.com/polifonia-project/cometa-ontology
+- https://github.com/polifonia-project/bell-ontology 
+- https://github.com/polifonia-project/music-algorithm-ontology 
+- https://github.com/polifonia-project/music-analysis-ontology 
+- https://github.com/polifonia-project/music-annotation-ontology 
 credits:
 - https://github.com/albertmeronyo
 - https://github.com/valecarriero
@@ -34,29 +38,29 @@ This repository contains links to the Polifonia Ontology Network.
 
 A root ontology module (FULL), stored in this repository, imports all thematic ontology modules of the ontology network.
 
-Thematic and top-level ontology modules are stored elsewhere in their own repositories, and linked here. 
+Thematic and top-level ontology modules are stored in separate repositories of the *Polifonia Project*, and linked here. 
 
-<img width="922" alt="Screenshot 2021-11-04 at 20 22 46" src="https://user-images.githubusercontent.com/12375920/140406107-738798fb-f6a6-467f-9c03-8a1092cb011b.png">
+<img width="922" alt="Screenshot 2021-11-04 at 20 22 46" src="https://github.com/polifonia-project/ontology-network/assets/44606182/f2811e40-a694-473c-ad5e-14acaf887ee0">
 
 ## Ontology modules of Polifonia Ontology Network
 
-| Ontology | Description | Link | Champion |
-|----------|-------------|------|----------|
-| FULL |  The FULL root ontology module is stored in this repository. |  https://github.com/polifonia-project/ontology-network/ | WP2 |
-| Core | The ontology models general-purpose concepts and relationships (e.g. place, time, classification, situation) orthogonal to the whole Polifonia ontology network  | https://github.com/polifonia-project/core/  | Valentina Carriero  |
-| Musical Performance | The ontology models concepts and relationships for representing musical performances and music-related events.  |  https://github.com/polifonia-project/musical-performance/ | Valentina Carriero  |
-| Musical Composition | The ontology models concepts and relationships for representing musical compositions.  |  https://github.com/polifonia-project/musical-composition/ |  WP2 |
-| Musical Feature | The ontology provides a comprehensive and sound schema to describe a musical object (a score, an audio track, etc.) in regard to the musical properties that can be objectively attributed or subjectively identified from it.  | https://github.com/polifonia-project/musical-feature/  |  Valentina Carriero |
-| Source |  The ontology models concepts and relationships for representing sources of (music-related) information. |  https://github.com/polifonia-project/source |  Fiorela Ciroku |
-| Instrument |  The ontology describe musical instruments, their categorisation into instrument families and groups, and their technical properties. | https://github.com/polifonia-project/instrument  | Fiorela Ciroku  |
-| Comparative Measure | The ontology models observations and measures applied to comparative analysis, such as similarities.  |  https://github.com/polifonia-project/comparative-measure | Fiorela Ciroku  |
-| Music Emotion | The ontology provides a comprehensive and sound schema to describe emotions both perceived and induced by a composition in regard to the musical features.  |  https://github.com/polifonia-project/music-emotion | WP2  |
-| Metadata |  The ontology aims at supporting the representation of meta-data about musical resources. |  https://github.com/polifonia-project/metadata | WP2  |
-| Bell |  The ontology represents concepts and relationships to describe bells, bell towers and bell ringers. |  https://github.com/polifonia-project/bell |  Valentina Carriero |
-| JAMS |  The ontology provides a comprehensive schema to describe JAMS files and their annotations. | https://github.com/polifonia-project/jams-ontology  |  Andrea Poltronieri |
-| Roman Chords | The ontology represents annotated chords in the Roman Numeral format  | https://github.com/polifonia-project/roman-chord-ontology  | Andrea Poltronieri  |
-| Organs |   |  https://github.com/polifonia-project/organs-dataset | Fiorela Ciroku  |
-| Modal Tonalities |  Ontology dedicated to the modal-tonal organisation of polyphonic works. | https://github.com/polifonia-project/modal-tonal-ontology  |   |
+| **Ontology**             | **Prefix** | **Description**                                                                                | **URI**                                                   | **Repository**                                                     |
+|--------------------------|------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------|
+| **FULL**                 | pon:       | The FULL ontology module stored in this repository, which imports all the modules listed here. | https://w3id.org/polifonia/ontology/ontology-network/     | https://github.com/polifonia-project/ontology-network/             |
+| **Core**                 | core:      | Elements of general reuse and ontology design patterns.                                        | https://w3id.org/polifonia/ontology/core/                 | https://github.com/polifonia-project/core-ontology                 |
+| **Music Meta**           | mm:        | Achieving interoperability of music metadata.                                                  | https://w3id.org/polifonia/ontology/music-meta/           | https://github.com/polifonia-project/musicmeta-ontology            |
+| **Music Representation** | mr:        | Foundational model to describe arbitrary musical content.                                      | https://w3id.org/polifonia/ontology/music-representation/ | https://github.com/polifonia-project/music-representation-ontology |
+| **Music Instrument**     | mop:       | Instruments and their evolution through time and space.                                        | https://w3id.org/polifonia/ontology/instrument/           | https://github.com/polifonia-project/instrument-ontology           |
+| **Source**               | src:       | Representing musical sources and their context of production.                                  | https://w3id.org/polifonia/ontology/source/               | https://github.com/polifonia-project/source-ontology               |
+| **Tunes**                | tunes:     | A specialisation of Music Meta for folk music.                                                 | https://w3id.org/polifonia/ontology/tunes/                | https://github.com/polifonia-project/tunes-ontology                |
+| **CoMeta**               | com:       | An extension of Music Meta to represent music corpora.                                         | https://w3id.org/polifonia/ontology/cometa/               | https://github.com/polifonia-project/cometa-ontology               |
+| **Music Projection**     | mp:        | Achieving interoperability of music notation systems.                                          | https://w3id.org/polifonia/ontology/music-projection/     | https://github.com/polifonia-project/music-projection-ontology     |
+| **Organs**               | organ:     | A rich descriptive model of organs and building methods.                                       | https://w3id.org/polifonia/ontology/organ/                | https://github.com/polifonia-project/organs-ontology               |
+| **Bells**                | bell:      | Describing bells, bell towers and bell ringers.                                                | https://w3id.org/polifonia/ontology/bell/                 | https://github.com/polifonia-project/bell-ontology                 |
+| **Music Algorithm**     | mx:        | Computational methods for music and their parametrisation.                                     | https://w3id.org/polifonia/ontology/music-algorithm/      | https://github.com/polifonia-project/music-algorithm-ontology      |
+| **Music Analysis**      | ma:        | Music analysis through reasoning using modal-tonal theories.                                   | https://w3id.org/polifonia/ontology/music-analyis/        | https://github.com/polifonia-project/music-analysis-ontology       |
+| **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
+
 
 
 
