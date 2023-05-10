@@ -3,8 +3,8 @@ component-id: ontology-network
 name: Polifonia Ontology Network (PON)
 description: Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each of its submodules.
 type: Ontology
-release-date: 21/02/2022
-release-number: v0.1
+release-date: 09/05/2023
+release-number: v1.0
 work-package: 
 - WP2
 licence:  CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
@@ -30,6 +30,7 @@ credits:
 - https://github.com/jonnybluesman
 - https://github.com/delfimpandiani
 - https://github.com/andreamust
+- https://github.com/n28div
 ---
 
 # Polifonia Ontology Network
