@@ -33,13 +33,16 @@ credits:
 - https://github.com/n28div
 ---
 
-# Polifonia Ontology Network
+# Polifonia Ontology Network (PON)
 
 This repository contains links to the Polifonia Ontology Network.
 
-A root ontology module (FULL), stored in this repository, imports all thematic ontology modules of the ontology network.
+[![DOI](https://zenodo.org/badge/372536364.svg)](https://zenodo.org/badge/latestdoi/372536364)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Thematic and top-level ontology modules are stored in separate repositories of the *Polifonia Project*, and linked here. 
+
+
+A root ontology module (FULL), stored in this repository, imports all thematic ontology modules of the ontology network. Thematic and top-level ontology modules are stored in separate repositories of the *Polifonia Project*, and linked here. 
 
 <img width="922" alt="Screenshot 2021-11-04 at 20 22 46" src="https://github.com/polifonia-project/ontology-network/assets/44606182/f2811e40-a694-473c-ad5e-14acaf887ee0">
 
