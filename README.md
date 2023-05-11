@@ -1,15 +1,29 @@
 # Polifonia Ontology Network (PON)
 
-This repository contains links to the Polifonia Ontology Network.
+This repository contains references to the Polifonia Ontology Network.
 
 [![DOI](https://zenodo.org/badge/372536364.svg)](https://zenodo.org/badge/latestdoi/372536364)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+The Polifonia Ontology Network (PON) provides a modular backbone of music
+ontologies to address both cultural heritage and more general queries in the
+music domain. As illustrated in the diagram below, `PON v1.0` comprises 15
+ontology module that are organised thematically (colours, horizontal view) and
+hierarchically, to highlight their dependencies (vertical view). At the bottom
+of the architecture lies our `Core` module (providing general-purpose elements
+of design, ODPs, and alignments) and the reused ontologies. Four foundational
+models provide interoperability across PON through their abstract design:
+`Source`, `Instrument`, `Music Meta`, and `Music Representation`. These are
+specialised and extended in the upper levels to add functionalities and
+contextualise specific domains.
 
+<img width="922" alt="PON architecture" src="https://github.com/polifonia-project/ontology-network/assets/44606182/f2811e40-a694-473c-ad5e-14acaf887ee0">
 
-A root ontology module (FULL), stored in this repository, imports all thematic ontology modules of the ontology network. Thematic and top-level ontology modules are stored in separate repositories of the *Polifonia Project*, and linked here. 
+A summary of PON modules is given in the table below, with links to the
+repositories storing the modules with documentation, diagrams, and examples.
+Through our foundational models, PON ontologies can be applied to a wide set of
+music projects, and the modular design simplifies extensibility and maintenance.
 
-<img width="922" alt="Screenshot 2021-11-04 at 20 22 46" src="https://github.com/polifonia-project/ontology-network/assets/44606182/f2811e40-a694-473c-ad5e-14acaf887ee0">
 
 ## Ontology modules of Polifonia Ontology Network
 
@@ -31,11 +45,17 @@ A root ontology module (FULL), stored in this repository, imports all thematic o
 | **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
 
 
+## Contributing
+
+🙌 We encourage you to explore and leverage the Polifonia Ontology Network v1.0
+to enhance your music-related applications, research, and collaborations. Your
+feedback and contributions are highly appreciated as we continue to refine and
+expand this ontology network.
+
+Let the power of ontologies unlock new possibilities in the world of music! 🎵✨
 
 
-## Ontology and dataset survey
 
-A survey (included as part of D2.1) reporting existing ontologies with relations to the PON is avaialble [here](d21-ontologies.pdf), and an analogous one about related datasets is [here](d21-datasets.pdf)
 
 
 
