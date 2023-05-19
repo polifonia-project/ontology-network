@@ -5,6 +5,8 @@ This repository contains references to the Polifonia Ontology Network.
 [![DOI](https://zenodo.org/badge/372536364.svg)](https://zenodo.org/badge/latestdoi/372536364)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+> 🔗 Ontology URI: [https://w3id.org/polifonia/ontology/ontology-network/](https://w3id.org/polifonia/ontology/ontology-network/)
+
 The Polifonia Ontology Network (PON) provides a modular backbone of music
 ontologies to address both cultural heritage and more general queries in the
 music domain. As illustrated in the diagram below, `PON v1.0` comprises 15
@@ -17,7 +19,7 @@ models provide interoperability across PON through their abstract design:
 specialised and extended in the upper levels to add functionalities and
 contextualise specific domains.
 
-<img width="922" alt="PON architecture" src="https://github.com/polifonia-project/ontology-network/assets/44606182/f2811e40-a694-473c-ad5e-14acaf887ee0">
+![overview](assets/pon_architecture.png)
 
 A summary of PON modules is given in the table below, with links to the
 repositories storing the modules with documentation, diagrams, and examples.
@@ -54,10 +56,6 @@ expand this ontology network.
 
 Let the power of ontologies unlock new possibilities in the world of music! 🎵✨
 
+## License
 
-
-
-
-
-
-
+This work is licensed under a [Creative Commons Attribution 4.0 International License][http://creativecommons.org/licenses/by/4.0/].
