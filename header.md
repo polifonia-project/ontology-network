@@ -38,20 +38,37 @@ related-components:
 - informed-by:
   - https://github.com/polifonia-project/polifoniacq-dataset
   - https://github.com/polifonia-project/idea
-- reuses:  # any reused/imported ontology- https://github.com/polifonia-project/core/
-- https://github.com/polifonia-project/core-ontology
-- https://github.com/polifonia-project/musicmeta-ontology 
-- https://github.com/polifonia-project/music-representation-ontology
-- https://github.com/polifonia-project/source-ontology
-- https://github.com/polifonia-project/instrument-ontology
-- https://github.com/polifonia-project/tunes-ontology
-- https://github.com/polifonia-project/music-projection-ontology
-- https://github.com/polifonia-project/organs-ontology
-- https://github.com/polifonia-project/cometa-ontology
-- https://github.com/polifonia-project/bell-ontology 
-- https://github.com/polifonia-project/music-algorithm-ontology 
-- https://github.com/polifonia-project/music-analysis-ontology 
-- https://github.com/polifonia-project/music-annotation-ontology
-- documentation:  # link any resource providing documentation for this ontology
-  - https://github.com/polifonia-project/ontology-network
+- reuses:
+- https://w3id.org/polifonia/ontology/core/
+- https://w3id.org/polifonia/ontology/music-meta/
+- https://w3id.org/polifonia/ontology/music-representation/
+- https://w3id.org/polifonia/ontology/source/
+- https://w3id.org/polifonia/ontology/instrument/
+- https://w3id.org/polifonia/ontology/tunes/
+- https://w3id.org/polifonia/ontology/music-projection/
+- https://w3id.org/polifonia/ontology/organs/
+- https://w3id.org/polifonia/ontology/cometa/
+- https://w3id.org/polifonia/ontology/bells/
+- https://w3id.org/polifonia/ontology/music-algorithm/
+- https://w3id.org/polifonia/ontology/music-analyis/
+- https://w3id.org/polifonia/ontology/music-annotation/
+- documentation:
+  - https://github.com/polifonia-project/ontology-network  # FIXME
 ---
+# Polifonia Ontology Network (PON)
+
+The Polifonia Ontology Network (PON) provides a modular backbone of music
+ontologies to address both cultural heritage and more general queries in the
+music domain. As illustrated in the diagram below, `PON v1.0` comprises 15
+ontology module that are organised thematically (colours, horizontal view) and
+hierarchically, to highlight their dependencies (vertical view). At the bottom
+of the architecture lies our `Core` module (providing general-purpose elements
+of design, ODPs, and alignments) and the reused ontologies. Four foundational
+models provide interoperability across PON through their abstract design:
+`Source`, `Instrument`, `Music Meta`, and `Music Representation`. These are
+specialised and extended in the upper levels to add functionalities and
+contextualise specific domains.
+
+![overview](assets/pon_architecture.png)
+
+[Link to the website](https://github.com/polifonia-project/ontology-network)
