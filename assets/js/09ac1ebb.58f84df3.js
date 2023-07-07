@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[811],{4192:o=>{o.exports=JSON.parse('{"label":"polifonia","permalink":"/ontology-network/blog/tags/polifonia","allTagsPath":"/ontology-network/blog/tags","count":1}')}}]);
