@@ -41,8 +41,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: "docs",
-          path: "docs",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -71,7 +69,7 @@ const config = {
         title: 'The Polifonia Ontology Network',
         logo: {
           alt: 'PON Logo',
-          src: 'img/musicmeta_logo.png',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -79,12 +77,6 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documentation',
-          },
-          {
-            to: '/projects/intro',
-            label: 'Showcase',
-            position: 'left',
-            activeBaseRegex: `/projects/`,
           },
           {to: '/blog', label: 'News', position: 'left'},
           {
@@ -103,10 +95,6 @@ const config = {
               {
                 label: 'Documentation',
                 to: '/docs/intro',
-              },
-              {
-                label: 'Showcase',
-                to: '/projects/',
               },
             ],
           },
@@ -145,17 +133,6 @@ const config = {
       },
     }),
 
-    plugins: [
-      [
-        '@docusaurus/plugin-content-docs',
-        {
-          id: 'projects',
-          path: 'projects',
-          routeBasePath: 'projects',
-          sidebarPath: require.resolve('./sidebars.js'),
-        }, 
-      ],
-  ],
   
 };
 
