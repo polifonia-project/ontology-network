@@ -41,6 +41,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "docs",
+          path: "docs",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -76,7 +78,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
+          },
+          {
+            to: '/projects/intro',
+            label: 'Showcase',
+            position: 'left',
+            activeBaseRegex: `/projects/`,
           },
           {to: '/blog', label: 'News', position: 'left'},
           {
@@ -90,11 +98,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Resources',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Showcase',
+                to: '/projects/',
               },
             ],
           },
@@ -125,13 +137,26 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} The Polifonia Ontology Network, Polifonia.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Polifonia Ontology Network (PON), Polifonia.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'projects',
+          path: 'projects',
+          routeBasePath: 'projects',
+          sidebarPath: require.resolve('./sidebars.js'),
+        }, 
+      ],
+  ],
+  
 };
 
 module.exports = config;

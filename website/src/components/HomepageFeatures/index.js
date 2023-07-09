@@ -8,20 +8,20 @@ const FeatureList = [
     Svg: require('@site/static/img/placeholder.svg').default,
     description: (
       <>
-        Music Meta provides an abstraction to describe music metadata across
-        different genres and periods, for various stakeholders and datasets. It 
+        PON provides an abstraction to describe music data amd resources across
+        different genres and periods, for various end users and datasets. It 
         is thought to be specialised and extended.
       </>
     ),
   },
   {
-    title: 'Focus on your music data',
+    title: 'Aligned with music ontologies',
     Svg: require('@site/static/img/placeholder.svg').default,
     description: (
       <>
-        The creation of Music Knowledge Graphs from your data is streamlined by
-        the pyMusicMeta library. No need to know the details of Music Meta,    
-        and we also produce alignments with other ontologies.
+        Our ontologies are aligned with other semantic resources for music,
+        including DOREMUS, The Music Ontology, Music OWL, and Wikidata. Our
+        design simplifies their reuse and integration.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList = [
       <>
         Who said that Beethoven is the composer of this piece? How was this link
         to MusicBrainz obtained? With wich confidence? Provenance is the core of
-        Music Meta, and you can always include reference.  
+        PON, and you can always include sources.  
       </>
     ),
   },
