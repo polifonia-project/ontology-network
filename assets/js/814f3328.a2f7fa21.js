@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"PON v1.0 release","permalink":"/ontology-network/blog/first-blog-post"},{"title":"Music Meta is out","permalink":"/ontology-network/blog/welcome"}]}')}}]);

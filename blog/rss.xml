@@ -9,22 +9,22 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Music Meta Clinic]]></title>
+            <title><![CDATA[PON v1.0 release]]></title>
             <link>https://polifonia-project.github.io/ /ontology-network/blog/first-blog-post</link>
             <guid>https://polifonia-project.github.io/ /ontology-network/blog/first-blog-post</guid>
             <pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Coming soon!]]></description>
             <content:encoded><![CDATA[<p>Coming soon!</p>]]></content:encoded>
             <category>hola</category>
-            <category>musicmeta</category>
+            <category>pon</category>
         </item>
         <item>
-            <title><![CDATA[Welcome]]></title>
+            <title><![CDATA[Music Meta is out]]></title>
             <link>https://polifonia-project.github.io/ /ontology-network/blog/welcome</link>
             <guid>https://polifonia-project.github.io/ /ontology-network/blog/welcome</guid>
             <pubDate>Mon, 10 Apr 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[The first version of Music Meta is out!]]></description>
-            <content:encoded><![CDATA[<p>The first version of Music Meta is out!</p><p><img loading="lazy" src="https://polifonia-project.github.io/music-meta-ontology/assets/images/music_meta-121d97e69ce0f8d6bd7f0b75336f0948.png" alt="Overview of Music Meta" class="img_ev3q"></p>]]></content:encoded>
+            <description><![CDATA[The first version of Music Meta is out]]></description>
+            <content:encoded><![CDATA[<p>The first version of Music Meta is out</p><p><img loading="lazy" src="https://polifonia-project.github.io/music-meta-ontology/assets/images/music_meta-121d97e69ce0f8d6bd7f0b75336f0948.png" alt="Overview of Music Meta" class="img_ev3q"></p>]]></content:encoded>
             <category>musicmeta</category>
             <category>hello</category>
             <category>polifonia</category>

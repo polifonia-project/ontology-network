@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[938],{5409:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/ontology-network/blog/tags/hola","allTagsPath":"/ontology-network/blog/tags","count":1}')}}]);
