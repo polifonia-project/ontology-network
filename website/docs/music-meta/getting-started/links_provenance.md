@@ -8,7 +8,7 @@ We propose a pattern based on `RDF*` [4] to describe the provenance at different
 The use of RDF* is particularly useful for this purpose, as it allows to embed provenance information to every triple in the dataset.
 This simplifies and streamlines the model, eliminating the need for n-ary relations or reification for each triple.
 
-![Example banner](https://polifonia-project.github.io/music-meta-ontology/assets/images/provenance-851fc5dcfab752b84609cac4cc8b4063.png)
+![Example banner](https://github.com/polifonia-project/music-meta-ontology/blob/main/diagrams/provenance.png?raw=true)
 
 The proposed pattern is straightforward and comprises the class `core:Reference`, which describes the source of the reference (using the class `core:Source`) and the method used to obtain the annotation (using the class `core:SourceMethod`).
 Additionally, the datatype properties `core:confidence` and `core:retrievedOn` describe the confidence of the annotation and the date it was produced, respectively.

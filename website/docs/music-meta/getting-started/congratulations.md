@@ -6,7 +6,7 @@ sidebar_position: 6
 
 You have just learned the **basics of the Music Meta Ontology**. Here is a full example of *Let it be* to wrap up.
 
-![Example banner](https://polifonia-project.github.io/music-meta-ontology/assets/images/beatles_example-70a7e77c3ac2f80f20fee9f7f29bf262.png)
+![Example banner](https://github.com/polifonia-project/music-meta-ontology/blob/main/examples/beatles_example.png?raw=true)
 
 Our ecosystem has **much more to offer**! Check out the tutorial on the `pyMusicMeta` in the next section and start creating Music Knowledge Graphs with Music Meta.
 

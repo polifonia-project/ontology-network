@@ -8,7 +8,7 @@ The realisation of a `mm:MusicEntity` is exemplified by `mm:MusicalPerformance`,
 As illustrated in the figure below, the place and time interval of a performance are described by `core:Place` and `core:TimeInterval` -- involving one or more `mm:MusicArtist`s (optionally with a specific role).
 In turn, a performance may create a new `mm:MusicEntity` if the execution differs significantly from the original version.
 
-![Example banner](https://polifonia-project.github.io/music-meta-ontology/assets/images/performance-a5cb0847d55d9451e4ae34bff6b2f36a.png)
+![Example banner](https://github.com/polifonia-project/music-meta-ontology/blob/main/diagrams/performance.png?raw=true)
 
 A Music Entity can also be recorded by means of a `mm:RecordingProcess`, which is a subclass of `mm:CreativeProcess` that allows for specifying location, time interval and persons involved in recording the song. 
 This makes it possible to describe information about both the production (e.g., producers) and the technical aspects of it (e.g., sound engineer, equipment used).

@@ -8,14 +8,14 @@ The focal point of Music Meta is the `mm:MusicEntity` class (figure below).
 This class represents an Information Object, which is defined as the sum of all the elements that make up a piece of music.
 A Music Entity is composed of several components, including lyrics (generalised through `mm:Text` to also account for `mm:Libretto`), the musical composition (`mm:CompositionObject`) and its instrumentation (`mm:Instrumentation`).
 
-![Example banner](https://polifonia-project.github.io/music-meta-ontology/assets/images/creation-3fe047a5d87683d0b5332158517782d2.png)
+![Example banner](https://github.com/polifonia-project/music-meta-ontology/blob/main/diagrams/creation.png?raw=true)
 
 A `mm:CompositionObject` describes the form of the composition (`mm:FormType`), its constituents parts (e.g. `mm:Movement` or `mm:Section`), and its key (`mm:Key`).
 In addition, its datatype properties describe the tempo of the composition (`mm:tempo`) and its order (`mm:orderNumber`).
 A `mm:Instrumentation` can instead be formalised in a `mm:Score`, which can be either digital or paper.
 Through the score, the instrumentation describes one or more `mm:MediumOfPerformance`, each of which has a cardinality (e.g. 3 violins).
 
-![Example banner](https://polifonia-project.github.io/music-meta-ontology/assets/images/entity-be9244ae4c9cc89ea6de86fbae500150.png)
+![Example banner](https://github.com/polifonia-project/music-meta-ontology/blob/main/diagrams/entity.png?raw=true)
 
 ## Relationships and grouping
 It is also possible to describe relationships between different Music Entities, defined by the part (`mm:hasPart`) and the derivation (`mm:isDerivedFrom`) properties.
