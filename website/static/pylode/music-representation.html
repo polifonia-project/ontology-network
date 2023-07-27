@@ -369,6 +369,20 @@ td {
           </div>
           <div>
             <dt>
+              <a class="hover_property" href="http://purl.org/vocab/vann/preferredNamespacePrefix" title="None. Defined in None">Preferred Namespace Prefix</a>
+            </dt>
+            <dd><p>mr:</p></dd>
+          </div>
+          <div>
+            <dt>
+              <a class="hover_property" href="http://purl.org/vocab/vann/preferredNamespaceUri" title="None. Defined in None">Preferred Namespace Uri</a>
+            </dt>
+            <dd>
+              <a href="https://w3id.org/polifonia/ontology/music-representation/">https://w3id.org/polifonia/ontology/music-representation/</a>
+            </dd>
+          </div>
+          <div>
+            <dt>
               <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
             </dt>
             <dd><p>The Music Representation Ontology provides a comprehensive schema to describe the analysis of musical objects (a score, an audio track, etc.) interpreted in the context of an existing theory.
@@ -724,11 +738,11 @@ It never adds anything to a musical piece that was not implicitly in it.</p>
               </th>
               <td><span>
   <span>
-    <a href="N5af07428b7134a58985a4d29964f8369">N5af07428b7134a58985a4d29964f8369</a>some<br>
+    <a href="Nc3c204ec555441fa8c1eddfacfc395c6">Nc3c204ec555441fa8c1eddfacfc395c6</a>some<br>
   </span>
 </span> <span class="cardinality">or</span> <span>
   <span>
-    <a href="N24aad8f11d774fe397b34eb5b2d0d790">N24aad8f11d774fe397b34eb5b2d0d790</a>some<br>
+    <a href="Ndf37105211be41a5b07916755892e90f">Ndf37105211be41a5b07916755892e90f</a>some<br>
   </span>
 </span></td>
             </tr>
@@ -1093,7 +1107,7 @@ It never adds anything to a musical piece that was not implicitly in it.</p>
                   <li>
                     <span>
                       <span>
-                        <a href="N393adddce9c74f6fb74ea63ab546ecab">N393adddce9c74f6fb74ea63ab546ecab</a>some<br>
+                        <a href="Na76a974847cc4536b95bdfd9d2e19bfb">Na76a974847cc4536b95bdfd9d2e19bfb</a>some<br>
                       </span>
                     </span>
                   </li>
@@ -1367,12 +1381,12 @@ It never adds anything to a musical piece that was not implicitly in it.</p>
       </div>
       <span>
         <span>
-          <a href="N5af07428b7134a58985a4d29964f8369">N5af07428b7134a58985a4d29964f8369</a>some<br>
+          <a href="Nc3c204ec555441fa8c1eddfacfc395c6">Nc3c204ec555441fa8c1eddfacfc395c6</a>some<br>
         </span>
       </span>
       <span>
         <span>
-          <a href="N24aad8f11d774fe397b34eb5b2d0d790">N24aad8f11d774fe397b34eb5b2d0d790</a>some<br>
+          <a href="Ndf37105211be41a5b07916755892e90f">Ndf37105211be41a5b07916755892e90f</a>some<br>
         </span>
       </span>
       <div class="section" id="objectproperties">
@@ -1456,10 +1470,10 @@ It never adds anything to a musical piece that was not implicitly in it.</p>
                 <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
               </th>
               <td><span>
-  <a href="#Musiccontent">Music content</a>
+  <a href="#Analysis">Analysis</a>
   <sup class="sup-c" title="OWL/RDFS Class">c</sup>
 </span> <span class="cardinality">or</span> <span>
-  <a href="#Analysis">Analysis</a>
+  <a href="#Musiccontent">Music content</a>
   <sup class="sup-c" title="OWL/RDFS Class">c</sup>
 </span></td>
             </tr>
@@ -2352,6 +2366,58 @@ E.g. a chord is composed of pitchclasses.</p></td>
             </tr>
           </table>
         </div>
+        <div class="property entity" id="description">
+          <h3>description
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/elements/1.1/description</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="issued">
+          <h3>issued
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/elements/1.1/issued</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="modified">
+          <h3>modified
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/elements/1.1/modified</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="title">
+          <h3>title
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/dc/elements/1.1/title</code>
+              </td>
+            </tr>
+          </table>
+        </div>
         <div class="property entity" id="license">
           <h3>license
             <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
@@ -2361,6 +2427,32 @@ E.g. a chord is composed of pitchclasses.</p></td>
               <th>IRI</th>
               <td>
                 <code>http://purl.org/dc/terms/license</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="preferredNamespacePrefix">
+          <h3>preferred namespace prefix
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/vocab/vann/preferredNamespacePrefix</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="property entity" id="preferredNamespaceUri">
+          <h3>preferred namespace uri
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+          </h3>
+          <table>
+            <tr>
+              <th>IRI</th>
+              <td>
+                <code>http://purl.org/vocab/vann/preferredNamespaceUri</code>
               </td>
             </tr>
           </table>
@@ -2607,10 +2699,6 @@ E.g. a chord is composed of pitchclasses.</p></td>
           <dd>
             <code>https://w3id.org/polifonia/ontology/music-meta/</code>
           </dd>
-          <dt id="ns1">ns1</dt>
-          <dd>
-            <code>https://w3id.org/polifonia/ontology/</code>
-          </dd>
           <dt id="owl">owl</dt>
           <dd>
             <code>http://www.w3.org/2002/07/owl#</code>
@@ -2626,6 +2714,10 @@ E.g. a chord is composed of pitchclasses.</p></td>
           <dt id="rdfs">rdfs</dt>
           <dd>
             <code>http://www.w3.org/2000/01/rdf-schema#</code>
+          </dd>
+          <dt id="vann">vann</dt>
+          <dd>
+            <code>http://purl.org/vocab/vann/</code>
           </dd>
         </dl>
       </div>
@@ -2824,7 +2916,25 @@ E.g. a chord is composed of pitchclasses.</p></td>
               <a href="#creator">creator</a>
             </li>
             <li>
+              <a href="#description">description</a>
+            </li>
+            <li>
+              <a href="#issued">issued</a>
+            </li>
+            <li>
+              <a href="#modified">modified</a>
+            </li>
+            <li>
+              <a href="#title">title</a>
+            </li>
+            <li>
               <a href="#license">license</a>
+            </li>
+            <li>
+              <a href="#preferredNamespacePrefix">preferred namespace prefix</a>
+            </li>
+            <li>
+              <a href="#preferredNamespaceUri">preferred namespace uri</a>
             </li>
           </ul>
         </li>
@@ -2871,9 +2981,6 @@ E.g. a chord is composed of pitchclasses.</p></td>
               <a href="#meta">meta</a>
             </li>
             <li>
-              <a href="#ns1">ns1</a>
-            </li>
-            <li>
               <a href="#owl">owl</a>
             </li>
             <li>
@@ -2884,6 +2991,9 @@ E.g. a chord is composed of pitchclasses.</p></td>
             </li>
             <li>
               <a href="#rdfs">rdfs</a>
+            </li>
+            <li>
+              <a href="#vann">vann</a>
             </li>
           </ul>
         </li>
