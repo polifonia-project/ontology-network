@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Introduction
 
+[![Static Badge](https://img.shields.io/badge/pylode-online-purple?style=plastic)](pathname:///pylode/music-projection.html)
+
 Describing the content of a musical composition is a very difficult task. Providing the definition of a musical concept, when possible, requires a meticoulus that is very hard even for experts of that field. For instance a *chord* is a musical concept that is generally well known to experts as well as novices. Despite its popularity, an unambigous definition for *chord* is still distiputed and on going research is focused in finding such definition.
 The issue however is not on the concept itself, a *chord*, but on its inherent ambiguity.
 Music evolves hand in hand with humans and the definition of musical concepts drifts at the same pace. It is inherently impossibile to find a uniquely and objectively correct definition of *chord* since it is deeply rooted in the context in which such *chord* will be used in the first place.
