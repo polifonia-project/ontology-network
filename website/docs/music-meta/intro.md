@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Introduction
 
+[![Static Badge](https://img.shields.io/badge/pylode-online-purple?style=plastic)](pathname:///pylode/music-meta.html)
+
 A music analyst, a computational musicologist, a music librarian, and a data engineer are working on a joint project.
 They need to contribute data from various musical sources, ranging from music libraries, annotated corpora and tune books, to audiovisual archives, radio broadcasts, and music catalogues.
 All data is eventually merged/aggregated as interconnected corpora, and linked to online music databases (e.g. MusicBrainz, Discogs) and knowledge bases (e.g. Wikidata).
@@ -33,4 +35,4 @@ First of all, it requires a perspective that harmonises all requirements from di
 
 > For more info, please check out our GitHub repository and the upcoming manuscript.
 
-![Overview of Music Meta](https://polifonia-project.github.io/music-meta-ontology/assets/images/music_meta-121d97e69ce0f8d6bd7f0b75336f0948.png)
+![Overview of Music Meta](https://raw.githubusercontent.com/polifonia-project/music-meta-ontology/main/diagrams/music_meta.png)
