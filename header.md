@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/ontology-network/
 type: Ontology
 name: Polifonia Ontology Network (PON)
 description: Top level description of the ontology modules in the Polifonia Ontology Network, with pointers to each submodule.
-image: assets/pon_architecture.png
+image: https://github.com/polifonia-project/ontology-network/raw/main/assets/pon_architecture.png
 work-package:
 - WP2
 pilot:
@@ -39,19 +39,19 @@ related-components:
   - https://github.com/polifonia-project/polifoniacq-dataset
   - https://github.com/polifonia-project/idea
 - reuses:
-- https://w3id.org/polifonia/ontology/core/
-- https://w3id.org/polifonia/ontology/music-meta/
-- https://w3id.org/polifonia/ontology/music-representation/
-- https://w3id.org/polifonia/ontology/source/
-- https://w3id.org/polifonia/ontology/instrument/
-- https://w3id.org/polifonia/ontology/tunes/
-- https://w3id.org/polifonia/ontology/music-projection/
-- https://w3id.org/polifonia/ontology/organs/
-- https://w3id.org/polifonia/ontology/cometa/
-- https://w3id.org/polifonia/ontology/bells/
-- https://w3id.org/polifonia/ontology/music-algorithm/
-- https://w3id.org/polifonia/ontology/music-analyis/
-- https://w3id.org/polifonia/ontology/music-annotation/
+  - https://w3id.org/polifonia/ontology/core/
+  - https://w3id.org/polifonia/ontology/music-meta/
+  - https://w3id.org/polifonia/ontology/music-representation/
+  - https://w3id.org/polifonia/ontology/source/
+  - https://w3id.org/polifonia/ontology/instrument/
+  - https://w3id.org/polifonia/ontology/tunes/
+  - https://w3id.org/polifonia/ontology/music-projection/
+  - https://w3id.org/polifonia/ontology/organs/
+  - https://w3id.org/polifonia/ontology/cometa/
+  - https://w3id.org/polifonia/ontology/bells/
+  - https://w3id.org/polifonia/ontology/music-algorithm/
+  - https://w3id.org/polifonia/ontology/music-analyis/
+  - https://w3id.org/polifonia/ontology/music-annotation/
 - documentation:
   - https://github.com/polifonia-project/ontology-network  # FIXME
 ---
