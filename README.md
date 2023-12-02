@@ -45,6 +45,7 @@ music projects, and the modular design simplifies extensibility and maintenance.
 | **Music Algorithm**     | mx:        | Computational methods for music and their parametrisation.                                     | https://w3id.org/polifonia/ontology/music-algorithm/      | https://github.com/polifonia-project/music-algorithm-ontology      |
 | **Music Analysis**      | ma:        | Music analysis through reasoning using modal-tonal theories.                                   | https://w3id.org/polifonia/ontology/music-analysis/        | https://github.com/polifonia-project/music-analysis-ontology       |
 | **Music Annotation**    | ann:       | A wrapper of ontologies for music annotations (audio, symbolic).                               | https://w3id.org/polifonia/ontology/music-annotation/     | https://github.com/polifonia-project/music-annotation-ontology     |
+| **Meetups**    | mtps:       | Represents concepts and relationships describing encounters between people in the musical world.                               | https://w3id.org/polifonia/ontology/meetups-ontology/     | https://github.com/polifonia-project/meetups-ontology     |
 
 
 ## Contributing
